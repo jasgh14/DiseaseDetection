@@ -1,0 +1,21 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Train (config.yaml)",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/plant_disease/train.py",
+      "console": "integratedTerminal",
+      "args": ["--config", "config/config.yaml"]
+    },
+    {
+      "name": "UI App",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/ui/app.py",
+      "console": "integratedTerminal",
+      "args": ["--weights", "runs/best_model.pth", "--label-map", "data/label_map.json"]
+    }
+  ]
+}

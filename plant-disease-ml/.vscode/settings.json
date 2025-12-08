@@ -1,0 +1,7 @@
+{
+  "python.defaultInterpreterPath": "${workspaceFolder}\\.venv\\Scripts\\python.exe",
+  "python.testing.pytestEnabled": true,
+  "python.analysis.extraPaths": ["./src"],
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "files.eol": "\n"
+}
