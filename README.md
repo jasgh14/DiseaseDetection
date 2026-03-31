@@ -57,5 +57,5 @@ Install the required packages before running the app.
 ```bash
 pip install pyqt5 opencv-python pillow numpy pyyaml
 ```
-Working application<img width="1838" height="1023" alt="tests" src="https://github.com/user-attachments/assets/d491e2dd-2d92-43f0-8fdc-3fd8fcfa4110" />
+Working application<img width="1286" height="722" alt="Screenshot 2026-03-31 193350" src="https://github.com/user-attachments/assets/088f1a09-4862-4915-b9f6-3eabfea4af00" />
 
